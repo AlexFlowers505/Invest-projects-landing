@@ -32,7 +32,7 @@ function App() {
       <HoldingsNindustrialSites/>
       <Analytics/>
       <MiddleNav/>
-      <CEOquote/>
+      {/* <CEOquote/> */}
       <PartnersListing/>
       <RegisterCTA/>
       <ContactUs/>

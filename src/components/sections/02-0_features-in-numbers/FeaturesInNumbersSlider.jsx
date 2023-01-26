@@ -19,8 +19,6 @@ const FeaturesInNumbersSlider = () => {
       <Swiper 
         loop={true}
         slidesPerView={"auto"}
-        centeredSlides={true}
-        spaceBetween={15}
         speed={400}
         autoplay={{
           delay: 3000,
@@ -31,6 +29,23 @@ const FeaturesInNumbersSlider = () => {
         }}
         modules={[Pagination, Autoplay]}
         className="first-look-slider"
+        breakpoints={{
+          300: {
+            slidesPerView: 1,
+            centeredSlides: true,
+            spaceBetween: 50,
+          },
+          890: {
+            slidesPerView: 2,
+            centeredSlides: false,
+            spaceBetween: 30
+          },
+          1500: {
+            slidesPerView: 3,
+            centeredSlides: true,
+            spaceBetween: 30
+          }
+        }}
       >
         {featuresInNumbersData.map((item) => {
           const {id, heading, additionalClass, points, pic} = item;

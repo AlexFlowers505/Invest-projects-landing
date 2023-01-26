@@ -4,6 +4,10 @@
   padding: 0;
   margin: 0;
   background-color: #1f1f1f;
+}
+.landing-page #root {
+  max-width: 1920px;
+  margin: auto;
   background-image: linear-gradient(315deg, #cde2ff 0%, #fffcff 74%);
 }
 .landing-page * {
@@ -93,13 +97,14 @@
   top: 0;
   z-index: 3;
   width: 100vw;
+  max-width: 1920px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   transition: 0.4s ease all;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 .landing-nav__btn {
   width: 55px;
@@ -330,7 +335,7 @@ html body .slider-links__link svg {
 .welcome-screen__wrapper {
   position: relative;
   background: radial-gradient(circle, rgb(33, 100, 200) 0%, rgb(33, 100, 200) 50%, rgb(52, 24, 111) 140%);
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -350,12 +355,16 @@ html body .slider-links__link svg {
 .welcome-screen__heading-wrapper {
   position: relative;
   width: 83vw;
-  display: block;
   margin: auto;
   top: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .welcome-screen__logo {
   width: 100%;
+  left: -20px;
 }
 .welcome-screen__desc {
   color: #ffffff;
@@ -398,6 +407,8 @@ html body .slider-links__link svg {
 
 .first-look-slider {
   padding-bottom: 30px;
+  width: 97%;
+  margin: auto;
 }
 .first-look-slider .slide {
   width: 100%;
@@ -418,6 +429,8 @@ html body .slider-links__link svg {
   line-height: 26px;
   letter-spacing: 1.25px;
   margin: -4px 0 14px;
+  position: relative;
+  z-index: 1;
 }
 .first-look-slider .slide__features-list {
   display: flex;
@@ -1048,5 +1061,37 @@ html body .middle-nav__icon {
   }
   100% {
     opacity: 1;
+  }
+}
+@media (min-width: 768px) {
+  .welcome-screen__desc {
+    margin-top: -10px;
+  }
+  .welcome-screen__logo {
+    position: relative;
+    width: 900px;
+  }
+  .first-look-slider .swiper-slide {
+    height: 350px !important;
+  }
+  .first-look-slider .swiper-slide .slide {
+    padding: 35px;
+  }
+  .first-look-slider .swiper-slide .slide__heading {
+    font-size: 33px;
+    line-height: 37px;
+  }
+  .first-look-slider .swiper-slide .slide__pic {
+    width: 313px !important;
+    height: 350px !important;
+    bottom: initial !important;
+    top: 75px !important;
+    right: 10px !important;
+  }
+  .first-look-slider .swiper-slide .slide .features-item__numbers {
+    font-size: 27px !important;
+  }
+  .first-look-slider .swiper-slide .slide .features-item__desc {
+    font-size: 18px !important;
   }
 }/*# sourceMappingURL=styles.css.map */
