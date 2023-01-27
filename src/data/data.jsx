@@ -192,40 +192,14 @@ export const instrumentsFeaturesData = [
 export const mapsSliderData = {
     tabs: [
         {
-            tabID: '001',
-            heading: 'Слои',
+            tabID: '004',
+            heading: 'Проекты',
             innerSlides: [
                 {
-                    heading: 'Проекты на карте',
-                    pic: '/maps/layers--projects.jpg',
-                    vid: '/maps/layers--projects.mp4',
-                    desc: [
-                        'Работает по 5 странам: Россия, Беларусь, Казахстан, Армения, Киргизия',
-                        'Точное местоположение объекта строительства',
-                        'Возможность выбора эффективного радиуса доставки / отгрузки до объекта',
-                        'Формирование карточек рынков',
-                        'Расширенный фильтр для поиска проектов (по стадиям, отраслям, регионам и т.д.)',
-                        'Интерактивная и ежедневно обновляемая платформа расчета использования строительных материалов',
-                        'Моментальный пересчет проектов на карте',
-                    ],
-                },
-                {
-                    heading: 'Компании на карте',
-                    pic: '/maps/layers--companies.jpg',
-                    vid: '/maps/layers--companies.mp4',
-                    desc: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'],
-                },
-                {
-                    heading: 'Преференциальные территории на карте',
-                    pic: '/maps/layers--zones.jpg',
+                    heading: 'Просмотр подробностей любого проекта',
+                    pic: '/slider-blocks/map.svg',
                     vid: false,
-                    desc: ['Eu feugiat pretium nibh ipsum consequat nisl vel. Cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo. Rhoncus urna neque viverra justo nec. Bibendum at varius vel pharetra vel turpis nunc eget lorem. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Massa tincidunt dui ut ornare.'],
-                },
-                {
-                    heading: 'Гибридное отображение всех объектов',
-                    pic: '/maps/layers--hybrid-view.jpg',
-                    vid: false,
-                    desc: ['Vestibulum morbi blandit cursus risus at. At urna condimentum mattis pellentesque id nibh tortor id aliquet. Varius quam quisque id diam vel quam elementum. Justo donec enim diam vulputate.'],
+                    desc: ['Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.'],
                 },
             ]
         },
@@ -235,36 +209,60 @@ export const mapsSliderData = {
             innerSlides: [
                 {
                     heading: 'Гибкий фильтр отображения объектов на карте',
-                    pic: '/maps/filter--filter.jpg',
+                    pic: '/slider-blocks/filter.svg',
                     vid: false,
                     desc: ['Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'],
                 },
             ]
         },
-        {
-            tabID: '003',
-            heading: 'Папки',
-            innerSlides: [
-                {
-                    heading: 'Фильтр по вашим папкам',
-                    pic: '/maps/folders--folders.jpg',
-                    vid: false,
-                    desc: ['Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.'],
-                },
-            ]
-        },
-        {
-            tabID: '004',
-            heading: 'Проекты',
-            innerSlides: [
-                {
-                    heading: 'Просмотр подробностей любого проекта',
-                    pic: '/maps/project-info--project-info.jpg',
-                    vid: false,
-                    desc: ['Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.'],
-                },
-            ]
-        },
+                // {
+        //     tabID: '001',
+        //     heading: 'Слои',
+        //     innerSlides: [
+        //         {
+        //             heading: 'Проекты на карте',
+        //             pic: '/slider-blocks/map.svg',
+        //             desc: [
+        //                 'Работает по 5 странам: Россия, Беларусь, Казахстан, Армения, Киргизия',
+        //                 'Точное местоположение объекта строительства',
+        //                 'Возможность выбора эффективного радиуса доставки / отгрузки до объекта',
+        //                 'Формирование карточек рынков',
+        //                 'Расширенный фильтр для поиска проектов (по стадиям, отраслям, регионам и т.д.)',
+        //                 'Интерактивная и ежедневно обновляемая платформа расчета использования строительных материалов',
+        //                 'Моментальный пересчет проектов на карте',
+        //             ],
+        //         },
+        //         {
+        //             heading: 'Компании на карте',
+        //             pic: '/slider-blocks/map.svg',
+        //             desc: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'],
+        //         },
+        //         {
+        //             heading: 'Преференциальные территории на карте',
+        //             pic: '/slider-blocks/map.svg',
+        //             vid: false,
+        //             desc: ['Eu feugiat pretium nibh ipsum consequat nisl vel. Cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo. Rhoncus urna neque viverra justo nec. Bibendum at varius vel pharetra vel turpis nunc eget lorem. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Massa tincidunt dui ut ornare.'],
+        //         },
+        //         {
+        //             heading: 'Гибридное отображение всех объектов',
+        //             pic: '/slider-blocks/map.svg',
+        //             vid: false,
+        //             desc: ['Vestibulum morbi blandit cursus risus at. At urna condimentum mattis pellentesque id nibh tortor id aliquet. Varius quam quisque id diam vel quam elementum. Justo donec enim diam vulputate.'],
+        //         },
+        //     ]
+        // },
+        // {
+        //     tabID: '003',
+        //     heading: 'Папки',
+        //     innerSlides: [
+        //         {
+        //             heading: 'Фильтр по вашим папкам',
+        //             pic: '/maps/folders--folders.jpg',
+        //             vid: false,
+        //             desc: ['Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.'],
+        //         },
+        //     ]
+        // },
     ],
     linksInfo: {
         resourseLink: {
@@ -282,7 +280,7 @@ export const projectBaseSliderData = {
             innerSlides: [
                 {
                     heading: 'Общая информация',
-                    pic: '/project-page/project-base--basics.jpg',
+                    pic: '/slider-blocks/project-base.svg',
                     vid: false,
                     desc: [
                         'База проектов — это основной раздел портала, где можно выбрать и посмотреть интересные вам проекты. Для удобства вам доступны фильтры по отраслям, регионам, стадиям реализации и др. Мы каждый день добавляем в Базу не менее 25 новых проектов и обновляем не менее 60 ранее найденных.',
@@ -290,13 +288,13 @@ export const projectBaseSliderData = {
                 },
                 {
                     heading: 'Фильтр',
-                    pic: '/project-page/project-base--filter.jpg',
+                    pic: '/slider-blocks/project-base.svg',
                     vid: false,
                     desc: ['Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?'],
                 },
                 {
                     heading: '"Мои папки" и "Мои фильтры"',
-                    pic: '/project-page/project-base--folders-n-personal-filters.jpg',
+                    pic: '/slider-blocks/project-base.svg',
                     vid: false,
                     desc: ['Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?'],
                 },
@@ -308,25 +306,25 @@ export const projectBaseSliderData = {
             innerSlides: [
                 {
                     heading: 'Общая информация',
-                    pic: '/project-page/project-page--basic-info.jpg',
+                    pic: '/slider-blocks/project-base.svg',
                     vid: false,
                     desc: ['At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.'],
                 },
                 {
                     heading: 'Инвесторы',
-                    pic: '/project-page/project-page--investor.jpg',
+                    pic: '/slider-blocks/project-base.svg',
                     vid: false,
                     desc: ['Et harum quidem rerum facilis est et expedita distinctio.'],
                 },
                 {
                     heading: 'Ген.проектировщик',
-                    pic: '/project-page/project-page--investor.jpg',
+                    pic: '/slider-blocks/project-base.svg',
                     vid: false,
                     desc: ['Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.'],
                 },
                 {
                     heading: 'Ген.подрядчик',
-                    pic: '/project-page/project-page--investor.jpg',
+                    pic: '/slider-blocks/project-base.svg',
                     vid: false,
                     desc: ['Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.'],
                 },
@@ -400,25 +398,25 @@ export const holdingsNindustrialSitesSliderData = {
             innerSlides: [
                 {
                     heading: 'Общая информация по холдингу',
-                    pic: '/zones/holdings--basics-tab.jpg',
+                    pic: '/slider-blocks/holdings.svg',
                     vid: '',
                     desc: ['Dessert cake danish cake sugar plum jelly. Jelly brownie shortbread pudding macaroon. '],
                 },
                 {
                     heading: 'Продукция',
-                    pic: '/zones/holdings--products-tab.jpg',
+                    pic: '/slider-blocks/holdings.svg',
                     vid: '',
                     desc: ['Sweet roll biscuit macaroon jujubes jujubes oat cake cupcake pudding.'],
                 },
                 {
                     heading: 'Прошлые, текущие, планируемые проекты',
-                    pic: '/zones/holdings--projects-tab.jpg',
+                    pic: '/slider-blocks/holdings.svg',
                     vid: '',
                     desc: ['Gummi bears chocolate soufflé jujubes sesame snaps. '],
                 },
                 {
                     heading: 'Финансовые показатели',
-                    pic: '/zones/holdings--financial-indicators-tab.jpg',
+                    pic: '/slider-blocks/holdings.svg',
                     vid: '',
                     desc: ['Donut donut chocolate cake marshmallow candy canes cake tart apple pie. '],
                 },
@@ -430,7 +428,7 @@ export const holdingsNindustrialSitesSliderData = {
             innerSlides: [
                 {
                     heading: 'Основная информация',
-                    pic: '/zones/zones--basics-tab.jpg',
+                    pic: '/slider-blocks/zones.svg',
                     vid: false,
                     desc: ['> 1 000 индустриальных парков и ОЭЗ по России',
                            '1 286 проектов реализуются в рамках индустриальных парков и ОЭЗ',
@@ -439,14 +437,14 @@ export const holdingsNindustrialSitesSliderData = {
                 },
                 {
                     heading: 'Продукция',
-                    pic: '/zones/zones--products.jpg',
+                    pic: '/slider-blocks/zones.svg',
                     vid: false,
                     desc: ['Ullamcorper sit amet risus nullam eget felis.',
                     ],
                 },
                 {
                     heading: 'Контакты',
-                    pic: '/zones/zones--contacts.jpg',
+                    pic: '/slider-blocks/zones.svg',
                     vid: false,
                     desc: ['Auctor augue mauris augue neque gravida. Donec ultrices tincidunt arcu non. Aliquet eget sit amet tellus. Fusce id velit ut tortor.',
                     ],
@@ -466,57 +464,38 @@ export const analyticsSliderData = {
     tabs: [
         {
             tabID: '001',
-            heading: 'Материалы',
+            heading: 'Умный поиск',
             innerSlides: [
                 {
-                    heading: 'Online-мониторинг потребления строительных материалов',
-                    pic: '/analytics/analytics--materials.jpg',
+                    heading: '700 параметров поиска и фильтрации',
+                    pic: '/slider-blocks/search.svg',
                     vid: '',
-                    desc: ['Расчет по выбранным стройматериалам (138 материалов)',
-                           'Аналитический период с 2020 по 2036 год',
-                           'Группировка по 85 регионам и 8 федеральным округам РФ',
-                           'Фильтрация по отраслям',
-                           'Интерактивная и ежедневно обновляемая платформа расчета использования строительных материалов',
-                           'Выгрузка инвестпроектов в Excel',
+                    desc: ['Быстрый фильтр прямо в поиске',
+                           'Деление поиска на блоки - "Проекты", "Холдинги", "Площадки", "Аналитика" и т.д.',
+                           'Доступ ко всей информации Портала одновременно и из одного места',
                     ],
                 },
             ]
         },
         {
             tabID: '002',
-            heading: 'Отрасли',
+            heading: 'Фильтр поиск',
             innerSlides: [
                 {
                     heading: 'Выборка',
-                    pic: '/analytics/analytics--industries-choice.jpg',
+                    pic: '/slider-blocks/search-settings.svg',
                     vid: false,
-                    desc: ['Bibendum neque egestas congue quisque egestas diam. Nec tincidunt praesent semper feugiat nibh.'],
-                },
-                {
-                    heading: 'Прогнозируемый объем инвестиций по годам',
-                    pic: '/analytics/analytics--industries.jpg',
-                    vid: false,
-                    desc: ['Venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Sit amet cursus sit amet dictum sit.'],
-                },
-            ]
-        },
-        {
-            tabID: '003',
-            heading: 'Регионы',
-            innerSlides: [ 
-                {
-                    heading: 'Работа с папками прямо на картах',
-                    pic: '/analytics/analytics--regions.jpg',
-                    vid: false,
-                    desc: ['Urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin. In iaculis nunc sed augue lacus viverra vitae congue.'],
+                    desc: ['Добавление в папку',
+                            'Комментарии',
+                            'Добавление в архив или избранное'],
                 },
             ]
         },
     ],
     linksInfo: {
         resourseLink: {
-            linkName: 'Перейти в аналитику по отраслям',
-            address: 'http://investprojects.loc/sectors'
+            linkName: 'Перейти к поиску',
+            address: 'https://investprojects.info/search/search?search=&select-id='
         },
         registerLink: true,
     },

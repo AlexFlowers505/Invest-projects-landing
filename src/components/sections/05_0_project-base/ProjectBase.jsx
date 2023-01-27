@@ -6,7 +6,7 @@ import { projectBaseSliderData } from '../../../data/data'
 const ProjectBase = () => {
   return (
     <section>
-        <Heading heading="Инвестиционные проекты России и стран ЕАЭС"
+        <Heading heading="Инвестиционные проекты РФ и стран ЕАЭС"
                  desc="Подробнейшая информация по проектам."
                  headingLinkID="project-base-section" 
                  icon="#icon-info"

@@ -6,7 +6,7 @@ import { analyticsSliderData } from '../../../data/data'
 const Analytics = () => {
   return (
     <section>
-        <Heading heading="Аналитика"
+        <Heading heading="Умный поиск"
                  desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                  headingLinkID="analytics-section" 
                  icon="#icon-growth"

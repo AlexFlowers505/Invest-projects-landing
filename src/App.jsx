@@ -26,11 +26,13 @@ function App() {
       <Hero/>
       <FeaturesInNumbersSlider/>
       <InstrumentsFeatures/>
-      <Maps/>
-      <ProjectBase/>
-      <TeamsUI/>
-      <HoldingsNindustrialSites/>
-      <Analytics/>
+      <div className="sliders-sections-wrapper">
+        <Maps/>
+        <ProjectBase/>
+        {/* <TeamsUI/> */}
+        <HoldingsNindustrialSites/>
+        <Analytics/>
+      </div>
       <MiddleNav/>
       {/* <CEOquote/> */}
       <PartnersListing/>
